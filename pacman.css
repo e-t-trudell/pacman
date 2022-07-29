@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+#world{
+    position: relative;
+}
+.row div{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    
+}
+.row{
+    /* space between row, text properties */
+    line-height: 0px;
+}
+.brick{
+    background-color: blue;
+    border: 1px solid red;
+
+}
+.coin{
+    background: url('./imgs/walruscoin.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
+} 
+#pacman{
+    background: url('./imgs/l3K.gif');
+    border: 1px solid white;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    background-size: cover;
+    width: 25px;
+    height: 25px; 
+    position: absolute; top: 33px; left: 33px;
+}
